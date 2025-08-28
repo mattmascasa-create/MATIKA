@@ -1,0 +1,7 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/ubuntu/matika-ai/src/main.py", line 15, in <module>
+    from src.routes.dashboard import dashboard_bp
+  File "/home/ubuntu/matika-ai/src/routes/dashboard.py", line 5, in <module>
+    import openai
+ModuleNotFoundError: No module named 'openai'
